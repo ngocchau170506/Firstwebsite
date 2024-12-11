@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+/* body{
+    width: 200px; 
+    margin: auto;
+    font-size: 20px;
+} */
+h2{
+    text-transform: uppercase;  
+}
+span{
+    padding-bottom: 5px;
+    border-bottom: solid 1px red
+}
+button{
+    padding: 5px 20px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+        .container {
+            width:100%; 
+        }
+        .image {
+            display: inline-block;
+            width: 30%; 
+            /* height: 588.45px; Chiếm toàn bộ chiều cao màn hình */
+            background-image: url('https://gomtlconsulting.com/samples/resume/assets/images/profile-image.jpg'); /
+            background-size: cover;
+            background-position: center;
+            float: left;
+        }
+
+        .text {
+            display: inline-block; /* Đặt phần văn bản thành inline-block */
+            width: 70%; /* Chiếm 50% chiều rộng */
+            padding: 40px;
+            vertical-align: top; /* Canh phần văn bản lên trên cùng */
+            /* height: 246px; Chiếm toàn bộ chiều cao màn hình */
+            box-sizing: border-box; /* Đảm bảo padding không làm thay đổi chiều rộng */
+            float: right;
+        }
